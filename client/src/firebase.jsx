@@ -1,8 +1,11 @@
 import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  // apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  apiKey: "AIzaSyAELgpzz7bug7pYujQ4EdzVkFWqS-XTj48",
   authDomain: "real-estate-245.firebaseapp.com",
   projectId: "real-estate-245",
   storageBucket: "real-estate-245.appspot.com",
@@ -10,5 +13,5 @@ const firebaseConfig = {
   appId: "1:281103781865:web:6a04c75a7c72997df5c578"
 };
 
-
-export  const app = initializeApp(firebaseConfig);
+// Initialize Firebase
+export const app = initializeApp(firebaseConfig);
